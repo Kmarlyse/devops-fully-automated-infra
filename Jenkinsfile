@@ -10,7 +10,7 @@ pipeline {
         stage('Git checkout') {
             steps {
                 echo 'Cloning project codebase...'
-                git branch: 'main', url: 'https://github.com/Kmarlyse/devops-fully-automation-Dec2023.git'
+                git branch: 'main', url: 'https://github.com/Kmarlyse/devops-fully-automated-infra.git'
                 sh 'ls'
             }
         }
